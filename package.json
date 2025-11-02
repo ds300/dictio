@@ -1,0 +1,25 @@
+{
+  "name": "dictio",
+  "version": "1.0.0",
+  "description": "Extract IPA pronunciations from Spanish Wiktionary",
+  "type": "module",
+  "scripts": {
+    "extract": "tsx extract_ipa.ts",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.4.0"
+  }
+}
